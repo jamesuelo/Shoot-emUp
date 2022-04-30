@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90074ad0265ea8e43b932d8185dbdd59, type: 3}
+  m_Name: Medium Wave LtoR
+  m_EditorClassIdentifier: 
+  enemies:
+  - enemyPrefab: {fileID: -8414311995372180299, guid: 15d82205826443d4690424486cc82a38, type: 3}
+    spawnReferencePosition: {x: 7, y: 8, z: 0}
+    useSpecificXPosition: 1
+    rotation: {x: 0, y: 0, z: 180, w: 0}
+    config: {fileID: 11400000, guid: 2220bdae41d730e44bb27b0172af43bf, type: 2}
+  - enemyPrefab: {fileID: -8414311995372180299, guid: 15d82205826443d4690424486cc82a38, type: 3}
+    spawnReferencePosition: {x: 3.5, y: 8, z: 0}
+    useSpecificXPosition: 1
+    rotation: {x: 0, y: 0, z: 180, w: 0}
+    config: {fileID: 11400000, guid: 2220bdae41d730e44bb27b0172af43bf, type: 2}
+  - enemyPrefab: {fileID: -8414311995372180299, guid: 15d82205826443d4690424486cc82a38, type: 3}
+    spawnReferencePosition: {x: 0, y: 8, z: 0}
+    useSpecificXPosition: 1
+    rotation: {x: 0, y: 0, z: 180, w: 0}
+    config: {fileID: 11400000, guid: 2220bdae41d730e44bb27b0172af43bf, type: 2}
+  - enemyPrefab: {fileID: -8414311995372180299, guid: 15d82205826443d4690424486cc82a38, type: 3}
+    spawnReferencePosition: {x: -3.5, y: 8, z: 0}
+    useSpecificXPosition: 1
+    rotation: {x: 0, y: 0, z: 180, w: 0}
+    config: {fileID: 11400000, guid: 2220bdae41d730e44bb27b0172af43bf, type: 2}
+  - enemyPrefab: {fileID: -8414311995372180299, guid: 15d82205826443d4690424486cc82a38, type: 3}
+    spawnReferencePosition: {x: -7, y: 8, z: 0}
+    useSpecificXPosition: 1
+    rotation: {x: 0, y: 0, z: 180, w: 0}
+    config: {fileID: 11400000, guid: 2220bdae41d730e44bb27b0172af43bf, type: 2}
+  cadence: 1
